@@ -5,8 +5,8 @@
 |-------|--------|
 | Project Name | Virtual Game Portal |
 | Description | Create a portal link to a virtual game for others to join.|
-| Live Website | {website of deployed application} |
-| Repo | {Link to git repository} |
+| Live Website | [WEBSITE LINK](https://kl-capstone.firebaseapp.com/) |
+
 
 ## Problem Being Solved and Target Market
 
@@ -37,30 +37,15 @@ For backend Applications you'll want to detail the different routes and types of
 
 You should also include any additional notes on any special headers that may be used and so forth.
 
-<!-- | Endpoint | Method | Response | Other |
-| -------- | ------ | -------- | ----- |
-| /item | GET | JSON of all items | |
-| /item | POST | Create new item return JSON of new item | body must include data for new item |
-| /item/:id | GET | JSON of item with matching id number | |
-| /item/:id | PUT | update item with matching idea, return its JSON | body must include updated data |
-| /item/:id | DELETE | delete the item with the matching id | |
-| /auth/signup | POST | creates new user account returns user JSON | new user info must be included in body |
-| /auth/login | POST | logs in user and returns user JSON with JWT token | username and password must be included in body | -->
-
-## Component Architecture
-
-<!-- You can use the [Mermaid Markdown Syntax](https://mermaid-js.github.io/mermaid/#/flowchart) to create a chart of how the parts of your frontend website relate to each other. Units should represent components of your page. The following is an example you may see in a Single Page Application like a React App. -->
 
 
+## PLANNING STAGE 
 
 
-
-## User Interface Mockups
+### User Interface Mockups
 Design layout
 https://xd.adobe.com/view/3efab524-b2a1-4a36-ad58-7a0824c91ad2-6ba9/
 
-
- 
 ### create new portal page
 ![Web Mockup](/doc/prev1.png)
 
@@ -71,8 +56,32 @@ https://xd.adobe.com/view/3efab524-b2a1-4a36-ad58-7a0824c91ad2-6ba9/
 ![Web Mockup](/doc/prev3.png)
 
 
-## Wireframe layout
+### Wireframe layout
 ![wireframe Mockup](/doc/technology%20layout.png)
+
+### webRTC
+webRTC setup - https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection
+![webRTC Mockup](/doc/how-does-webrtc-work-4.gif)
+
+
+### agora
+agora.io doc - https://docs.agora.io/en/Real-time_Messaging/API%20Reference/RTM_web/index.html
+![webRTC Mockup](/doc/agora.png)
+
+
+
+
+
+## PRODUCTION 
+
+### Wireframe layout 
+![wireframe](/doc/Project5.png)
+
+### create new portal page
+![Web ](/doc/live1.png)
+
+### game room  
+![Web ](/doc/live2.png)
 
 
 
